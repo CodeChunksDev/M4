@@ -1,0 +1,5 @@
+/* estilos error en ingreso al formulario */
+.errorNumero {
+  color: red;
+  font-style: italic;
+}

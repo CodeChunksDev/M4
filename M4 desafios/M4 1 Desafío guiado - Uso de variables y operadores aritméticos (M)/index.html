@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="p-2">
+        <h1 class="text-center">Uso de variables y operadores aritméticos con Javascript</h1>
+    </header>
+
+    <main class="container p-4">
+        <section>
+            <div class="row">
+                <div class="col">
+
+                    <h2>ingrese numero 1:</h2> <input id="inputNum1">
+                    <h2>ingrese numero 2:</h2> <input id="inputNum2">
+                </div>
+                <div class="col">
+                    <button onclick="calculos('+')" value="+" type="button" class="btn btn-primary">sumar</button>
+                    <button onclick="calculos('-')" value="-" type="button" class="btn btn-secondary">restar</button>
+                    <button onclick="calculos('*')" value="*" type="button" class="btn btn-success">multiplicar</button>
+                    <button onclick="calculos('/')" value="/" type="button" class="btn btn-danger">dividir</button>
+                    <button onclick="calculos('%')" value="%" type="button" class="btn btn-warning">modulo</button>
+                    <br>
+                    <p class="fs-1" id="res_calculos"></p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="row">
+                <div class="col">
+                    <h2>ingrese grados celsius:</h2> <input id="grados">
+                </div>
+                <div class="col">
+                    <button onclick="kelvin()" type="button" class="btn btn-primary">kelvin</button>
+                    <button onclick="far()" type="button" class="btn btn-secondary">fahrenheit</button>
+                    <br>
+                    <p class="fs-1" id="res_grados"></p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section>
+            <div class="row">
+                <div class="col">
+                    <h2>ingrese días:</h2> <input id="dias">
+                </div>
+                <div class="col">
+                    <button onclick="mostrar()" type="button" class="btn btn-primary">mostrar</button>
+                    <br>
+                    <p class="fs-1" id="res_dias"></p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section>
+            <div class="row">
+                <div class="col">
+                    <h2>ingrese numero 1:</h2> <input id="inputNum01">
+                    <h2>ingrese numero 2:</h2> <input id="inputNum02">
+                    <h2>ingrese numero 3:</h2> <input id="inputNum03">
+                    <h2>ingrese numero 4:</h2> <input id="inputNum04">
+                    <h2>ingrese numero 5:</h2> <input id="inputNum05">
+                </div>
+                <div class="col">
+                    <button onclick="sumaTotal()" type="button" class="btn btn-primary">sumar todo</button>
+                    <button onclick="promedio()" type="button" class="btn btn-secondary">promedio</button>
+                    <br>
+                    <p class="fs-1" id="res_prom"></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="text-end">2024 ©</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
